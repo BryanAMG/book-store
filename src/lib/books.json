@@ -1,0 +1,264 @@
+{
+    "book": [
+        {
+            "title": "Matar un ruiseñor",
+            "pages": "324",
+            "genre": "Dra",
+            "cover": "https://images.gr-assets.com/books/1361975680l/2657.jpg",
+            "synopsis": "Scout Finch, una joven de un tranquilo pueblo del sur, está a punto de vivir acontecimientos dramáticos que afectarán el resto de su vida.",
+            "year": "1960",
+            "ISBN": "978-0061120084",
+            "author": "Harper Lee"
+        },
+        {
+            "title": "El Gran Gatsby",
+            "pages": "180",
+            "genre": "Ciencia ficción",
+            "cover": "https://images.gr-assets.com/books/1490528560l/4671.jpg",
+            "synopsis": "La historia del misteriosamente rico Jay Gatsby y su amor por la bella Daisy Buchanan, de fastuosas fiestas en Long Island en una época en la que, según comentó The New York Times, “la ginebra era la bebida nacional y el sexo la obsesión nacional.”",
+            "year": "1925",
+            "ISBN": "978-0743273565",
+            "author": "F. Scott Fitzgerald"
+        },
+        {
+            "title": "Orgullo y Prejuicio",
+            "pages": "279",
+            "genre": "Drama",
+            "cover": "https://images.gr-assets.com/books/1320399351l/1885.jpg",
+            "synopsis": "Cuando Elizabeth Bennet conoce por primera vez al soltero elegible Fitzwilliam Darcy, lo considera arrogante y engreído; a él le es indiferente su buena apariencia y su mente vivaz. Cuando más tarde descubre que Darcy se ha involucrado en la problemática relación entre su amigo Bingley y su amada hermana Jane, está decidida a que él le desagrade más que nunca.",
+            "year": "1813",
+            "ISBN": "978-0141439518",
+            "author": "Jane Austen"
+        },
+        {
+            "title": "El Hobbit",
+            "pages": "366",
+            "genre": "Fantasía",
+            "cover": "https://images.gr-assets.com/books/1372847500l/5907.jpg",
+            "synopsis": "Bilbo Bolsón, un hobbit respetable y acomodado, vive cómodamente en su agujero de hobbit hasta el día en que el mago errante Gandalf lo elige para participar en una aventura de la que quizás nunca regrese.",
+            "year": "1937",
+            "ISBN": "978-0618260300",
+            "author": "J.R.R. Tolkien"
+        },
+        {
+            "title": "El Guardian Entre El Centeno",
+            "pages": "277",
+            "genre": "Ciencia ficción",
+            "cover": "https://images.gr-assets.com/books/1398034300l/5107.jpg",
+            "synopsis": "Un adolescente ha sido expulsado de su colegio por 3 días, donde dicho tiempo se centrara en su percepción hacia lo ajeno, hacía lo externo, la vida y las personas.",
+            "year": "1951",
+            "ISBN": "978-0316769488",
+            "author": "J.D. Salinger"
+        },
+        {
+            "title": "Las Cronicas de Narnia",
+            "pages": "767",
+            "genre": "Fantasía",
+            "cover": "https://images.gr-assets.com/books/1449868701l/11127.jpg",
+            "synopsis": "Abren una puerta y entran en un mundo diferente y fascinante.",
+            "year": "1950",
+            "ISBN": "978-0066238500",
+            "author": "C.S. Lewis"
+        },
+        {
+            "title": "Lo Que el Viento se Llevó",
+            "pages": "1037",
+            "genre": "Drama",
+            "cover": "https://images.gr-assets.com/books/1328025229l/18405.jpg",
+            "synopsis": "Una hija mimada debe utilizar todos los medios a su alcance para salir de la pobreza en la que se encuentra.",
+            "year": "1936",
+            "ISBN": "978-0446675536",
+            "author": "Margaret Mitchell"
+        },
+        {
+            "title": "Los Juegos del Hambre",
+            "pages": "374",
+            "genre": "Ciencia ficción",
+            "cover": "https://images.gr-assets.com/books/1447303603l/2767052.jpg",
+            "synopsis": "Un Capitolio, duro y cruel, rodeado por doce distritos somete a niños de 12 a 18 años a participar en unos juegos de vida o muerte retransmita por television en vivo.",
+            "year": "2008",
+            "ISBN": "978-0439023481",
+            "author": "Suzanne Collins"
+        },
+        {
+            "title": "El Código Da Vinci",
+            "pages": "481",
+            "genre": "Ciencia ficción",
+            "cover": "https://images.gr-assets.com/books/1303252999l/968.jpg",
+            "synopsis": "Un profesor de Harvard debe destapar una red de mentiras vinculada a las obras de Leonardo da Vinci tras producirse un misterioso asesinato en el Museo del Louvre.",
+            "year": "2003",
+            "ISBN": "978-0307474278",
+            "author": "Dan Brown"
+        },
+        {
+            "title": "El Alquimista",
+            "pages": "197",
+            "genre": "Ciencia ficción",
+            "cover": "https://images.gr-assets.com/books/1483412266l/865.jpg",
+            "synopsis": "Un pastor andaluz llamado Santiago viaja desde su tierra natal en España hasta el desierto egipcio en busca de un tesoro enterrado en las Pirámides.",
+            "year": "1988",
+            "ISBN": "978-0061122415",
+            "author": "Paulo Coelho"
+        },
+        {
+            "title": "La Chica del Dragón Tatuado",
+            "pages": "465",
+            "genre": "Misterio",
+            "cover": "https://images.gr-assets.com/books/1327868566l/2429135.jpg",
+            "synopsis": "Cuarenta años después de la desaparición de Harriet Vanger en una isla habitada , un periodista y una joven hacker son contratados para investigar dicho caso.",
+            "year": "2005",
+            "ISBN": "978-0307269751",
+            "author": "Stieg Larsson"
+        },
+        {
+            "title": "Cometas en el cielo",
+            "pages": "371",
+            "genre": "Ciencia ficción",
+            "cover": "https://images.gr-assets.com/books/1484565687l/77203.jpg",
+            "synopsis": "La inolvidable y desgarradora historia de la improbable amistad entre un niño rico y el hijo del sirviente de su padre, atrapado en el trágico paso de la historia.",
+            "year": "2003",
+            "ISBN": "978-1594631931",
+            "author": "Khaled Hosseini"
+        },
+        {
+            "title": "Bajo la misma Estrella",
+            "pages": "313",
+            "genre": "Drama",
+            "cover": "https://images.gr-assets.com/books/1360206420l/11870085.jpg",
+            "synopsis": "Historia sobre el amor y la muerte, narrada en clave de drama y humor, en la que el cáncer aparece como fondo protagonista para alertar sobre la importancia de valorar la vida y disfrutar del presente.",
+            "year": "2012",
+            "ISBN": "978-0525478812",
+            "author": "John Green"
+        },
+        {
+            "title": "El Señor de los Anillos",
+            "pages": "1200",
+            "genre": "Fantasía",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1566425108i/33.jpg",
+            "synopsis": "Una aventura épica en un mundo de fantasía llamado la Tierra Media.",
+            "year": "1954",
+            "ISBN": "978-0618640157",
+            "author": "J.R.R. Tolkien"
+        },
+        {
+            "title": "Juego de Tronos",
+            "pages": "694",
+            "genre": "Fantasía",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1273763400i/8189620.jpg",
+            "synopsis": "En un reino donde las estaciones duran años, una batalla épica por el trono se desarrolla.",
+            "year": "1996",
+            "ISBN": "978-0553103540",
+            "author": "George R. R. Martin"
+        },
+        {
+            "title": "Harry Potter y la piedra filosofal",
+            "pages": "223",
+            "genre": "Fantasía",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1550337333i/15868.jpg",
+            "synopsis": "Un niño descubre que es un mago y comienza una aventura en una escuela de magia.",
+            "year": "1997",
+            "ISBN": "978-0747532699",
+            "author": "J.K. Rowling"
+        },
+        {
+            "title": "1984",
+            "pages": "328",
+            "genre": "Ciencia ficción",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1657781256i/61439040.jpg",
+            "synopsis": "Una inquietante visión de un futuro distópico y totalitario.",
+            "year": "1949",
+            "ISBN": "978-0451524935",
+            "author": "George Orwell"
+        },
+        {
+            "title": "Apocalipsis Zombie",
+            "pages": "444",
+            "genre": "Terror",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1422626176i/24762432.jpg",
+            "synopsis": "Un gallego se queda en casa en pleno apocalipsis zombie y acaba casi salvando el mundo",
+            "year": "2001",
+            "ISBN": "978-4444532611",
+            "author": "Manel Loreiro"
+        },
+        {
+            "title": "Dune",
+            "pages": "412",
+            "genre": "Ciencia ficción",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1555447414i/44767458.jpg",
+            "synopsis": "En el inhóspito planeta desértico de Arrakis, una gran intriga política y familiar se desarrolla.",
+            "year": "1965",
+            "ISBN": "978-0441172719",
+            "author": "Frank Herbert"
+        },
+        {
+            "title": "La Guía del Autoestopista Galáctico",
+            "pages": "216",
+            "genre": "Ciencia ficción",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1653311117i/6691227.jpg",
+            "synopsis": "Un viaje absurdo y cómico por el espacio, con toallas.",
+            "year": "1979",
+            "ISBN": "978-0345391803",
+            "author": "Douglas Adams"
+        },
+        {
+            "title": "Neuromante",
+            "pages": "271",
+            "genre": "Ciencia ficción",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1554437249i/6088007.jpg",
+            "synopsis": "Una visión profética de la ciber-realidad y la inteligencia artificial.",
+            "year": "1984",
+            "ISBN": "978-0441569595",
+            "author": "William Gibson"
+        },
+        {
+            "title": "Fahrenheit 451",
+            "pages": "249",
+            "genre": "Ciencia ficción",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1383718290i/13079982.jpg",
+            "synopsis": "Una sociedad futura donde los libros están prohibidos y bomberos queman cualquier libro que encuentren.",
+            "year": "1953",
+            "ISBN": "978-1451673319",
+            "author": "Ray Bradbury"
+        },
+        {
+            "title": "El resplandor",
+            "pages": "688",
+            "genre": "Terror",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1641398308i/60038757.jpg",
+            "synopsis": "Una familia se muda a un hotel aislado para el invierno donde una presencia siniestra influye en el padre hacia la violencia.",
+            "year": "1977",
+            "ISBN": "978-0307743657",
+            "author": "Stephen King"
+        },
+        {
+            "title": "Drácula",
+            "pages": "418",
+            "genre": "Terror",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1387151694i/17245.jpg",
+            "synopsis": "La historia del infame conde Drácula y su intento de mudarse de Transilvania a Inglaterra.",
+            "year": "1897",
+            "ISBN": "978-0486411095",
+            "author": "Bram Stoker"
+        },
+        {
+            "title": "Frankenstein",
+            "pages": "280",
+            "genre": "Terror",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1669159060i/63631742.jpg",
+            "synopsis": "Un científico obsesionado crea una criatura viva a partir de partes de cuerpos robadas, con consecuencias desastrosas.",
+            "year": "1818",
+            "ISBN": "978-0486282114",
+            "author": "Mary Shelley"
+        },
+        {
+            "title": "La llamada de Cthulhu",
+            "pages": "43",
+            "genre": "Terror",
+            "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1485924654i/34094154.jpg",
+            "synopsis": "La historia de un monstruo ancestral que amenaza con revivir y dominar el mundo.",
+            "year": "1928",
+            "ISBN": "978-1542461690",
+            "author": "H.P. Lovecraft"
+        }
+    ]
+}
