@@ -1,5 +1,3 @@
-import { hostname } from 'os';
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
@@ -7,6 +5,10 @@ const nextConfig = {
             {
                 protocol: "https",
                 hostname: "images.gr-assets.com",
+            },
+            {
+                protocol: "https",
+                hostname: "images-na.ssl-images-amazon.com"
             }
         ]
     }
