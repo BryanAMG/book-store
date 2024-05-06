@@ -1,9 +1,13 @@
-import { Input } from "./Input";
-import { Categories } from "./categories";
 
-export function FiltersBooks() {
-    return <section className=" w-full flex flex-col items-center gap-2">
-        <Categories />
-        <Input placeholder="Busca por titulo " className="w-80 text-black" />
+import { GenreFilter } from "./genres";
+import { getGenres } from "@/services/books";
+import { InputFilter } from "./input-fiilter";
+
+export async function FiltersBooks() {
+
+    const allGenres: string[] = await getGenres()
+    return <section className=" w-full flex flex-col items-center gap-4">
+        <GenreFilter allGenres={allGenres} />
+        <InputFilter placeholder="Buscar por titulo " />
     </section>
 }
