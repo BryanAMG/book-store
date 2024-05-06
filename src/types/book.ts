@@ -1,4 +1,4 @@
-export interface book {
+export interface Book {
     title: string;
     pages: string;
     genre: string;
@@ -8,3 +8,12 @@ export interface book {
     ISBN: string;
     author: string;
 }
+
+
+export interface Filters {
+    genre?: string,
+    search?: string,
+    page?: number
+}
+
+
