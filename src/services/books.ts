@@ -4,6 +4,7 @@ import type { Book, Filters } from '@/types/book'
 const DELAY = 300
 const BOOKS_PER_PAGE = 8
 const { books } = booksData
+
 export const getBooks = ({ genre = "todos", search = "", page = 1 }: Filters): Promise<Book[]> => {
 
     return new Promise(resolve => {
@@ -31,8 +32,8 @@ export const getGenres = (): Promise<string[]> => {
     return new Promise(resolve => setTimeout(() => resolve(['todos'].concat(Array.from(new Set(books.map(book => book.genre))))), DELAY))
 }
 
-export const getBook = (ISBN: string): Promise<Book> => {
-    return new Promise(resolve => setTimeout(() => books.find(book => book.ISBN === ISBN), DELAY))
+export const getBook = (ISBN: string): Promise<Book | undefined> => {
+    return new Promise(resolve => setTimeout(() => resolve(books.find(book => book.ISBN === ISBN)), DELAY))
 }
 
 export const getGenresQuantity = ({ filterBooks }: { filterBooks: Book[] }) => {
@@ -45,4 +46,11 @@ export const getGenresQuantity = ({ filterBooks }: { filterBooks: Book[] }) => {
     })
 
     return { todos, ...genres }
+}
+
+export const getTotalPages = async ({ genre = "todos", search = "" }: Filters) => {
+    const filterBooks = await getBooks({ genre, search, page: 0 })
+
+    const totalBooks = filterBooks.length
+    return Math.ceil(totalBooks / BOOKS_PER_PAGE)
 }
