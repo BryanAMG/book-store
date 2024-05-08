@@ -1,7 +1,12 @@
-import type { GenreUI } from "@/types/book";
+
 import cn from 'clsx'
 import Link from "next/link";
-type Props = GenreUI & { href: string, isActive: boolean }
+interface Props {
+    name: string,
+    quantity: number,
+    href: string,
+    isActive: boolean
+}
 
 
 export function GenreLink({ name, quantity, href, isActive }: Props) {
@@ -13,12 +18,20 @@ export function GenreLink({ name, quantity, href, isActive }: Props) {
         {
             isActive ? (
                 <div className="px-4 py-2 " >
-                    <span> {name}</span>
-                    <span> ({quantity}) </span>
+                    <span className="capitalize "> {name}</span>
+                    <span className='w-4'>
+                        <span>(</span>
+                        <span className='w-2'>{quantity}</span>
+                        <span>)</span>
+                    </span>
                 </div>
             ) : (<Link href={href} className="px-4 py-2 " >
                 <span className="capitalize "> {name}</span>
-                <span> ({quantity}) </span>
+                <span className='w-4'>
+                    <span>(</span>
+                    <span className='w-2'>{quantity}</span>
+                    <span>)</span>
+                </span>
             </Link>)
         }
 

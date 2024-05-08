@@ -33,7 +33,7 @@ export function GenreFilter({ allGenres }: { allGenres: string[] }) {
 
         return `/?${params.toString()}`
     }
-    return <ul className="flex gap-3 items-center justify-center">
+    return <ul className="genres flex gap-3 items-center justify-start overflow-auto w-full">
         {
             allGenres.map(genre => <GenreLink
                 key={genre}
