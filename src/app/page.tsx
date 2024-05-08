@@ -1,8 +1,9 @@
 import { Suspense } from "react";
 import { BookList } from "@/ui/components/book-list";
 import { BookInfo } from "@/ui/components/book-info-dialog";
-import { getBook } from "@/services/books";
+import { getBook, getTotalPages } from "@/services/books";
 import { Book } from "@/types/book";
+import { Pagination } from "@/ui/components/pagination";
 
 export default async function Home({
   searchParams
@@ -21,12 +22,16 @@ export default async function Home({
   const isbn = searchParams?.isbn ?? ''
   const book = await getBook(isbn)
 
+  const totalPages = await getTotalPages({ search, genre })
+  console.log({ totalPages })
+
   return (
     <section className="flex w-full flex-col gap-4 items-center justify-center">
       <Suspense key={search + genre + page} fallback={null}>
         <BookList search={search} genre={genre} page={page} />
       </Suspense>
-      {/* pagination */}
+      <Pagination totalPages={totalPages} />
+
       {
         book && <BookInfo {...book} />
       }
