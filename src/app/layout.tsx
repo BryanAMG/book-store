@@ -19,8 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${montserrat.className} antialiased min-h-screen`}>
-        <div className="h-full w-full max-w-4xl px-4 mx-auto flex flex-col items-center">
+      <body className={`${montserrat.className} antialiased min-h-screen `}>
+        <div className="h-full w-full max-w-4xl px-4 mx-auto flex flex-col items-center ">
           <HeaderLayout />
           <main className="flex mt-6 w-full h-full flex-col items-center justify-between">
             {children}
