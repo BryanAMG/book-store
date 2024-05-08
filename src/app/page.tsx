@@ -23,7 +23,6 @@ export default async function Home({
   const book = await getBook(isbn)
 
   const totalPages = await getTotalPages({ search, genre })
-  console.log({ totalPages })
 
   return (
     <section className="flex w-full flex-col gap-4 items-center justify-center">
