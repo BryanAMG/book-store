@@ -1,6 +1,8 @@
 import type { Book } from "@/types/book";
 import Image from "next/image";
 import { ButtonOpenModal } from "./button-open-modal";
+import { ButtonAddFavoriteBooks } from "./button-add-read-list";
+import { BookInfo, BookToRead } from "./icons";
 
 export function BookItem({ title, cover, ISBN }: Book) {
 
@@ -8,10 +10,12 @@ export function BookItem({ title, cover, ISBN }: Book) {
         <picture className="relative overflow-hidden rounded-md shadow-lg ">
             <Image className=" w-full h-[250px] object-cover group-hover:brightness-50 transition duration-500" src={cover} alt={`image of ${title} book`} width={310} height={450} />
             <div className="absolute inset-0 grid place-items-center ">
-                <div className="flex py-2 px-4 bg-black gap-6 cursor-pointer rounded-full translate-y-[350%] group-hover:translate-y-0  transition-transform">
+                <div className="flex py-1 px-3 bg-black gap-6 cursor-pointer rounded-full translate-y-[400%] duration-500 group-hover:translate-y-0  transition-transform">
                     <ButtonOpenModal ISBN={ISBN} />
-                    <span className="w-8 h-8 flex justify-center items-center hover:text-blue-700">ver </span>
-                    <span className="w-8 h-8 flex justify-center items-center hover:text-blue-700">add </span>
+                    <ButtonAddFavoriteBooks ISBN={ISBN}>
+                        <BookToRead />
+                    </ButtonAddFavoriteBooks>
+
                 </div>
             </div>
         </picture>

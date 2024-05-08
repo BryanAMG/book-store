@@ -11,7 +11,7 @@ export function ButtonCloseModal() {
         params.delete('isbn')
         return `/?${params.toString()}`
     }
-    return <Link className="text-black w-4 h-4 hover:text-red-500" href={createUrl()}>
+    return <Link className="text-black w-6 h-6 transition-colors absolute right-3 top-3 hover:text-red-500 " href={createUrl()}>
         <ReadListCloseButton />
     </Link>
 }
