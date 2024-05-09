@@ -11,7 +11,7 @@ export function ButtonOpenModal({ ISBN }: { ISBN: string }) {
         params.set('isbn', ISBN)
         return `/?${params.toString()}`
     }
-    return <Link href={createUrl()} className="flex justify-center items-center w-8 h-8 text-white hover:text-blue-700">
+    return <Link href={createUrl()} className="flex justify-center items-center w-8 h-8 text-white hover:text-blue-700" title="Más información del libro">
         <BookInfo />
     </Link>
 }

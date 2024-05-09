@@ -1,11 +1,11 @@
-import { ReadListOpenButton } from "./icons";
+
+import { ReadListAside } from "./read-list";
+import { ButtonOpenAside } from "./read-list/button-open-aside";
 
 export function Header() {
-    return <header className="w-full flex justify-between items-center py-3">
+    return <header className="relative w-full flex justify-between items-center py-3">
         <h1 className="text-2xl italic">BOOK STORE</h1>
-        <button className="relative text-white bg-blue-700 rounded-lg p-2 hover:brightness-110  " aria-label="open-readlist">
-            <ReadListOpenButton />
-            <span className="absolute right-0 bottom-0 w-8 h-8 translate-x-1/2 translate-y-1/2 border-4 border-black  rounded-full bg-sky-300 text-base text-black  flex justify-center items-center">5</span>
-        </button>
+        <ButtonOpenAside />
+        <ReadListAside />
     </header>
 }

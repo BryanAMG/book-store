@@ -20,6 +20,7 @@ export function ButtonAddFavoriteBooks({ ISBN, large, ...props }: Props) {
 
     return <button
         className={classes}
+        title="Agregar a mis favoritos"
         {...props} />
 
 }
