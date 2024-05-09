@@ -30,7 +30,6 @@ export default async function Home({
         <BookList search={search} genre={genre} page={page} />
       </Suspense>
       <Pagination totalPages={totalPages} />
-
       {
         book && <BookInfo {...book} />
       }
