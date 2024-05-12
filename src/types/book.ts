@@ -16,9 +16,8 @@ export interface Filters {
     page?: number
 }
 
-export interface FavoriteBook {
-    book: Book,
-    calification: number,
+export type FavoriteBook = Book & {
+    stars: number,
     isReaded: boolean,
 }
 

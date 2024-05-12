@@ -3,23 +3,25 @@ import { create } from 'zustand'
 
 type Store = {
     isOpenModal: boolean,
-    setIsOpenModal: () => void,
+    openModal: () => void,
+    closeModal: () => void,
     favoriteBooks: FavoriteBook[],
     setFavoriteBooks: (bookData: Book) => void
 }
 
 export const useReadListStore = create<Store>()((set, get) => ({
     isOpenModal: false,
-    setIsOpenModal: () => set((state) => ({ isOpenModal: !state })),
+    openModal: () => set({ isOpenModal: true }),
+    closeModal: () => set({ isOpenModal: false }),
     favoriteBooks: [],
     setFavoriteBooks: (bookData: Book) => {
         const { favoriteBooks } = get()
-        const bookIndex = favoriteBooks.findIndex(({ book }) => book.ISBN === bookData.ISBN)
+        const bookIndex = favoriteBooks.findIndex((book) => book.ISBN === bookData.ISBN)
         let newFavoriteBooks: FavoriteBook[] = []
         if (bookIndex === -1) {
             const bookToAdd: FavoriteBook = {
-                book: bookData,
-                calification: 0,
+                ...bookData,
+                stars: 0,
                 isReaded: false
             }
             newFavoriteBooks = favoriteBooks.concat(bookToAdd)

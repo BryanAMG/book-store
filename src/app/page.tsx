@@ -2,7 +2,6 @@ import { Suspense } from "react";
 import { BookList } from "@/ui/components/book-list";
 import { BookInfo } from "@/ui/components/book-info-dialog";
 import { getBook, getTotalPages } from "@/services/books";
-import { Book } from "@/types/book";
 import { Pagination } from "@/ui/components/pagination";
 
 export default async function Home({
