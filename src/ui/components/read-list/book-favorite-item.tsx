@@ -1,10 +1,12 @@
 import { Book, FavoriteBook } from "@/types/book";
 import Image from "next/image";
 import { BookToDeleted } from "../icons";
+import { StarsRating } from "./stars";
+import { ReadingStatus } from "./reading-status";
 type Props = FavoriteBook & {
     handleClick: () => void
 }
-export function BookFavoriteItem({ author, genre, title, cover, handleClick }: Props) {
+export function BookFavoriteItem({ ISBN, author, isReaded, genre, title, cover, stars, handleClick }: Props) {
 
     return <article className='flex gap-5 my-2 p-2 transform-color duration-300 hover:bg-blue-100  xl:h-64 xl:w-full animate-fade-in'>
         <picture className='relative group  transition-transform duration-500 h-full w-[150px] xl:w-[150px] shadow-[-4.0px_5.0px_8.0px_rgba(0,0,0,0.38)]'>
@@ -17,8 +19,8 @@ export function BookFavoriteItem({ author, genre, title, cover, handleClick }: P
             <h3 className="text-lg truncate max-w-[120px] xl:max-w-none">{title}</h3>
             <h4 className="text-sm mt-[-10px]"><i>{author}</i></h4>
             <span className="py-1.5 text-white px-4 text-sm w-fit rounded-full bg-gray-600 text-light">{genre}</span>
-            {/* stars */}
-            {/* state_reading */}
+            <StarsRating ISBN={ISBN} currentRating={stars} />
+            <ReadingStatus ISBN={ISBN} isReaded={isReaded} />
         </div>
     </article>
 }
