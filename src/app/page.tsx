@@ -3,6 +3,7 @@ import { BookList } from "@/ui/components/book-list";
 import { BookInfo } from "@/ui/components/book-info-dialog";
 import { getBook, getTotalPages } from "@/services/books";
 import { Pagination } from "@/ui/components/pagination";
+import Skeleton from "@/ui/components/skeleton";
 
 export default async function Home({
   searchParams
@@ -25,7 +26,7 @@ export default async function Home({
 
   return (
     <section className="flex w-full flex-col gap-4 items-center justify-center">
-      <Suspense key={search + genre + page} fallback={null}>
+      <Suspense key={search + genre + page} fallback={<Skeleton />}>
         <BookList search={search} genre={genre} page={page} />
       </Suspense>
       <Pagination totalPages={totalPages} />
