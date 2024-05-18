@@ -31,7 +31,7 @@ export default async function Home({
       </Suspense>
       <Pagination totalPages={totalPages} />
       {
-        book && <BookInfo {...book} />
+        book && <Suspense fallback={null}><BookInfo {...book} /></Suspense>
       }
     </section>
 
