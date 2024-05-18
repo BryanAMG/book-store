@@ -1,6 +1,6 @@
 'use client'
 import { usePathname, useSearchParams, useRouter } from "next/navigation"
-import { Input } from "@/ui/components/input"
+import { Input } from "@/ui/components/input-base"
 import { useDebouncedCallback } from 'use-debounce'
 
 interface Props {
